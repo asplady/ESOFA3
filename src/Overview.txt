@@ -1,0 +1,48 @@
+William Dittman
+Josh Behm
+Aaron Splady
+Sawyer Payne
+Kenzie Andren
+
+Overview.txt
+(1) an overall description of the changes, 
+	
+	Running into walls- We were able to implement the running into walls feature by passing a string from
+		the method enter from the class wall that is "ouch that hurt". This enter method in wall is called
+		from the class room in the exit method. The exit method when called returns the string that is returned
+		by side[direction].enter(p); which can be a wall. The Player class then calls the room class method 
+		which returns the "ouch that hurt" string if the player walks into a wall.
+	Story- Our story was changed from being based on a spelunking cave adventure to being based on Dante's
+		Inferno. Rooms are circles of hell instead of chambers in a cave.
+	Gui- The GUI was made functional by passing player into the AdventureGameFacade. Then we used AdventureGameFacade
+		whenever we needed to move the player.
+	Get&drop- Not in the AdventureGame view and it stays in the facade because that is were it is really used
+		and changed. We also utilized the j option frame to implement the menu buttons for add drop.
+	
+	
+	
+(2) Interesting class relationships, design approaches, things that gave you trouble, 
+	Our project was completed in three group meetings; the first we really just looked at the code
+	and tried to set up computers in the lab for development, the second meeting we did most of the 
+	development and achieved all things required for us in the assignment, and the third meeting we 
+	commented code wrote the UML and created this overview.txt. We used Para programming for development.
+	We broke into two teams one made of Kenzie and Sawyer, the other composed of Will, Josh and Erin.
+	We tackled different design goals of the assignment and implemented them on different computers.
+	Once they were working (or appeared to be) we would give the bits of code we wrote to one person (Josh)
+	who then put them into the code and uploaded them to git hub. Our chief struggle was with eclipse.
+	Our biggest problem with development was working with eclipse. Using eclipse in EPS 254 no changes
+	made were implemented when the code was ran, this problem made development very difficult.
+	We also had problems when we downloaded the .jar file from git hub as the path to the BreezySwing
+	was not the same between our group members. Another issue we ran into was interpreting the
+	assignments requirement of changing as little as possible.
+
+(3) Any special instructions about running your program
+	
+(4) Time spent by each team member.
+
+	William Dittman - 6 hours
+	Josh Behm - 6 hours
+	Aaron Splady - 6 hours
+	Sawyer Payne - 6 hours
+	Kenzie Andren - 6 hours
+	
